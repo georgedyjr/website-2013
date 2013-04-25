@@ -700,4 +700,20 @@ section {
 			text-align: center;
 		}
 	}
+
+	#portfolio .scroll-panel {
+		width: 100%;
+		height: 335px;
+		overflow: scroll;
+
+		#list-portfolio {
+			width: 1950px;
+			height: 335px;
+
+			li {
+				display: inline-block;
+				margin: 0 15px;
+			}
+		}
+	}
 }

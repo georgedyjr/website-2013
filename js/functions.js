@@ -25,9 +25,17 @@ $('#header-site a').on('click', function (e) {
 
 	if (linkId == '#services') { extraOffset = 150}
 	if ($(window).scrollTop() > 0) {
-		scrollPage($(linkId).offset().top + extraOffset);
+		if ( $(window).width() > 500) {
+			scrollPage($(linkId).offset().top + extraOffset);
+		}else{
+			scrollPage($(linkId).offset().top - 200);			
+		}
 	}else{
-		scrollPage($(linkId).offset().top - 40 + extraOffset);
+		if ( $(window).width() > 500) {
+			scrollPage($(linkId).offset().top - 40 + extraOffset);
+		}else{
+			scrollPage($(linkId).offset().top - 200);
+		}
 	}
 	e.preventDefault();
 
