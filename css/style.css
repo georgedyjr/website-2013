@@ -57,7 +57,8 @@ strong {
     display: inline-block; }
     #header-nav ul li a {
       color: #fff;
-      font-family: "Economica";
+      font-family: "Share Tech";
+      letter-spacing: 0px;
       font-size: 20px;
       margin-right: 30px;
       text-shadow: 1px 1px 3px black;
@@ -87,7 +88,8 @@ section {
       color: #fff;
       text-shadow: 1px 1px 3px black; }
   section h2 {
-    font-family: "Economica";
+    font-family: "Share Tech";
+    letter-spacing: -2px;
     font-size: 60px;
     padding-top: 20px;
     text-transform: uppercase; }
@@ -116,6 +118,7 @@ section {
         display: block;
         font-family: "Clicker Script";
         font-size: 32px;
+        letter-spacing: 0;
         padding: 10px 0;
         text-transform: lowercase; }
     section#about #intro {
@@ -163,7 +166,8 @@ section {
     background: #ededed;
     border-top: 1px solid #d6d6d6;
     display: block;
-    font-family: "Economica";
+    font-family: "Share Tech";
+    letter-spacing: -2px;
     font-size: 30px;
     font-weight: 700;
     padding: 20px 0;
@@ -205,7 +209,7 @@ section {
       display: block;
       padding: 20px 30px; }
     #list-culture li .number {
-      font-family: "Economica";
+      font-family: "Share Tech";
       font-size: 32px;
       font-weight: 700; }
     #list-culture li .title {
@@ -236,7 +240,8 @@ section {
     color: #333;
     border-top: 1px solid #d6d6d6;
     display: block;
-    font-family: "Economica";
+    font-family: "Share Tech";
+    letter-spacing: -2px;
     font-size: 30px;
     font-weight: 700;
     padding: 20px 0;
@@ -246,11 +251,10 @@ section {
   #list-portfolio li .details {
     color: #fff;
     display: block;
-    font-family: "Economica";
+    font-family: "Share Tech";
     font-size: 40px;
     font-weight: 700;
     height: 224px;
-    line-height: 25px;
     padding: 20px;
     text-shadow: 0 1px 4px black;
     text-transform: uppercase;
@@ -283,7 +287,8 @@ section {
   .carousel hgroup {
     padding-top: 0; }
   .carousel h4 {
-    font-family: "Economica";
+    font-family: "Share Tech";
+    letter-spacing: -2px;
     font-size: 30px;
     font-weight: 700;
     padding: 20px;
@@ -315,7 +320,8 @@ section {
 #contact-info {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   float: left;
-  font-family: "Economica";
+  font-family: "Share Tech";
+  letter-spacing: -2px;
   font-size: 22px;
   font-weight: 700;
   text-align: left;
@@ -334,7 +340,8 @@ section {
 
 #contact-form-area {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  font-family: "Economica";
+  font-family: "Share Tech";
+  letter-spacing: -2px;
   font-size: 22px;
   font-weight: 700;
   margin-left: 360px;
@@ -345,7 +352,8 @@ section {
     border: none;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
     display: block;
-    font-family: "Economica";
+    font-family: "Share Tech";
+    letter-spacing: -2px;
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 10px;
