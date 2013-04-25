@@ -23,12 +23,11 @@ $('#header-site a').on('click', function (e) {
 	extraOffset = 0;
 	linkId = $(this).attr('href');
 
-	if (linkId == '#services') { extraOffset = -145}
-
-	if ($(window).scrollTop() > 10) {
-		scrollPage($(linkId).offset().top - extraOffset);
-	} else {
-		scrollPage($(linkId).offset().top - (265 + extraOffset));
+	if (linkId == '#services') { extraOffset = 150}
+	if ($(window).scrollTop() > 0) {
+		scrollPage($(linkId).offset().top + extraOffset);
+	}else{
+		scrollPage($(linkId).offset().top - 40 + extraOffset);
 	}
 	e.preventDefault();
 

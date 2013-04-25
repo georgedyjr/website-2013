@@ -21,30 +21,27 @@ strong {
 
 /* header styles */
 #header-site {
-  background: url("../img/bg-about.png");
   height: 112px;
   padding-top: 10px;
-  padding-bottom: 40px;
+  position: fixed;
   width: 100%;
-  transition: .5s; }
+  transition: 1s; }
   #header-site.header-persist {
-    background: rgba(0, 0, 0, 0.7);
+    background: url("../img/bg-about.png");
     height: 45px;
     padding-bottom: 5px;
     padding-top: 5px;
-    position: fixed;
-    transition: .5s;
     z-index: 10; }
     #header-site.header-persist #header-nav {
       margin-top: -32px;
-      transition: .5s; }
+      transition: .1s; }
       #header-site.header-persist #header-nav ul li a {
         display: block;
         height: 35px; }
     #header-site.header-persist #logo a {
       background-position: 0 -128px;
       height: 45px;
-      transition: .6s; }
+      transition: 1.5s; }
 
 #logo a {
   background: url("../img/logo.png");
@@ -99,14 +96,15 @@ section {
   section#about {
     background: url("../img/bg-about.png");
     min-height: auto;
-    padding-bottom: 0; }
+    padding-top: 130px;
+    padding-bottom: 0;
+    transition: .5s; }
     section#about.darken {
       background: rgba(0, 0, 0, 0.8);
-      padding-top: 192px; }
+      transition: 0s; }
       section#about.darken h2 {
-        display: none;
         opacity: .1;
-        transition: .1s; }
+        transition: 2s; }
       section#about.darken #intro {
         margin-top: 0;
         transition: .1s; }

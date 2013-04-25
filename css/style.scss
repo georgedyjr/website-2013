@@ -25,25 +25,22 @@ strong {
 
 /* header styles */
 #header-site {
-	background: url('../img/bg-about.png');
 	height: 112px;
 	padding-top: 10px;
-	padding-bottom: 40px;
+	position: fixed;
 	width: 100%;
-	transition: .5s;
+	transition: 1s;
 
 	&.header-persist {
-		background: rgba(0,0,0,.7);
+		background: url('../img/bg-about.png');
 		height: 45px;
 		padding-bottom: 5px;
 		padding-top: 5px;
-		position: fixed;
-		transition: .5s;
 		z-index:10;
 
 		#header-nav {
 			margin-top: -32px;
-			transition: .5s;
+			transition: .1s;
 
 			ul li a {
 				display: block;
@@ -54,7 +51,7 @@ strong {
 		#logo a {
 			background-position: 0 -128px;
 			height: 45px;
-			transition: .6s;
+			transition: 1.5s;
 		}
 
 	}
@@ -137,16 +134,17 @@ section {
 	&#about {
 		background: url('../img/bg-about.png');
 		min-height: auto;
+		padding-top: 130px;
 		padding-bottom: 0;
+		transition: .5s;
 
 		&.darken {
 			background: rgba(0,0,0,.8);
-			padding-top: 192px;
+			transition: 0s;
 
 			h2 {
-				display: none;
 				opacity: .1;
-				transition: .1s;
+				transition: 2s;
 			}
 
 			#intro {
