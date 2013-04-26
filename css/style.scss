@@ -1,3 +1,5 @@
+$headerFont: "Share Tech";
+
 body {
 	background-color: #424242;
 	background-image: url('../img/bg-propeller-dome.jpg');
@@ -25,25 +27,22 @@ strong {
 
 /* header styles */
 #header-site {
-	background: url('../img/bg-about.png');
 	height: 112px;
 	padding-top: 10px;
-	padding-bottom: 40px;
+	position: fixed;
 	width: 100%;
-	transition: .5s;
+	transition: 1s;
 
 	&.header-persist {
-		background: rgba(0,0,0,.7);
+		background: url('../img/bg-about.png');
 		height: 45px;
 		padding-bottom: 5px;
 		padding-top: 5px;
-		position: fixed;
-		transition: .5s;
 		z-index:10;
 
 		#header-nav {
 			margin-top: -32px;
-			transition: .5s;
+			transition: .1s;
 
 			ul li a {
 				display: block;
@@ -54,7 +53,7 @@ strong {
 		#logo a {
 			background-position: 0 -128px;
 			height: 45px;
-			transition: .6s;
+			transition: 1.5s;
 		}
 
 	}
@@ -80,7 +79,8 @@ strong {
 
 		a {
 			color: #fff;
-			font-family: "Economica";
+			font-family: $headerFont;
+			letter-spacing:0px;
 			font-size: 20px;
 			margin-right: 30px;
 			text-shadow: 1px 1px 3px #000;
@@ -124,7 +124,8 @@ section {
 	}
 
 	h2 {
-		font-family: "Economica";
+		font-family: $headerFont;
+		letter-spacing:-2px;
 		font-size: 60px;
 		padding-top: 20px;
 		text-transform: uppercase;
@@ -137,16 +138,17 @@ section {
 	&#about {
 		background: url('../img/bg-about.png');
 		min-height: auto;
+		padding-top: 130px;
 		padding-bottom: 0;
+		transition: .5s;
 
 		&.darken {
 			background: rgba(0,0,0,.8);
-			padding-top: 192px;
+			transition: 0s;
 
 			h2 {
-				display: none;
 				opacity: .1;
-				transition: .1s;
+				transition: 2s;
 			}
 
 			#intro {
@@ -164,6 +166,7 @@ section {
 				display: block;
 				font-family: "Clicker Script";
 				font-size: 32px;
+				letter-spacing: 0;
 				padding: 10px 0;
 				text-transform: lowercase;
 			}
@@ -230,7 +233,8 @@ section {
 			background: #ededed;
 			border-top: 1px solid #d6d6d6;
 			display: block;
-			font-family: "Economica";
+			font-family: $headerFont;
+			letter-spacing:-2px;
 			font-size: 30px;
 			font-weight: 700;
 			padding: 20px 0;
@@ -292,7 +296,7 @@ section {
 		}
 
 		.number {
-			font-family: "Economica";
+			font-family: $headerFont;
 			font-size: 32px;
 			font-weight: 700;
 		}
@@ -341,7 +345,8 @@ section {
 			color: #333;
 			border-top: 1px solid #d6d6d6;
 			display: block;
-			font-family: "Economica";
+			font-family: $headerFont;
+			letter-spacing:-2px;
 			font-size: 30px;
 			font-weight: 700;
 			padding: 20px 0;
@@ -353,11 +358,10 @@ section {
 		.details {
 			color: #fff;
 			display: block;
-			font-family: "Economica";
+			font-family: $headerFont;
 			font-size: 40px;
 			font-weight: 700;
 			height: 224px;
-			line-height: 25px;
 			padding: 20px;
 			text-shadow: 0 1px 4px #000;
 			text-transform: uppercase;
@@ -411,7 +415,8 @@ section {
 	}
 
 	h4 {
-		font-family: "Economica";
+		font-family: $headerFont;
+		letter-spacing:-2px;
 		font-size: 30px;
 		font-weight: 700;
 		padding: 20px;
@@ -453,7 +458,8 @@ section {
 #contact-info {
 	box-shadow: 0 0 5px rgba(0,0,0,.2);
 	float: left;
-	font-family: "Economica";
+	font-family: $headerFont;
+	letter-spacing:-2px;
 	font-size: 22px;
 	font-weight: 700;
 	text-align: left;
@@ -481,7 +487,8 @@ section {
 
 #contact-form-area {
 	box-shadow: 0 0 5px rgba(0,0,0,.2);
-	font-family: "Economica";
+	font-family: $headerFont;
+	letter-spacing:-2px;
 	font-size: 22px;
 	font-weight: 700;
 	margin-left: 360px;
@@ -493,7 +500,8 @@ section {
 		border: none;
 		box-shadow: 0 0 2px rgba(0,0,0,.4);
 		display: block;
-		font-family: "Economica";
+		font-family: $headerFont;
+		letter-spacing:-2px;
 		font-size: 20px;
 		font-weight: 700;
 		margin-bottom: 10px;
@@ -700,6 +708,22 @@ section {
 			display: block;
 			padding: 15px;
 			text-align: center;
+		}
+	}
+
+	#portfolio .scroll-panel {
+		width: 100%;
+		height: 335px;
+		overflow: scroll;
+
+		#list-portfolio {
+			width: 1950px;
+			height: 335px;
+
+			li {
+				display: inline-block;
+				margin: 0 15px;
+			}
 		}
 	}
 }
