@@ -251,7 +251,7 @@ section {
 			line-height: 25px;
 			padding: 20px;
 			text-shadow: 0 1px 4px #000;
-			transition: .1s;
+			transition: .01s;
 			visibility: hidden;
 		}
 
@@ -259,7 +259,7 @@ section {
 
 			.details {
 				background: rgba(119,172,149,.75);
-				transition: .2s;
+				transition: .01s;
 				visibility: visible;
 			}
 		}
@@ -286,7 +286,7 @@ section {
 	li {
 		color: #333;
 		display: table-cell;
-		height: 235px;
+		height: 265px;
 		text-align: left;
 		text-shadow: none;
 		width: 215px;
@@ -304,7 +304,7 @@ section {
 
 		.title {
 			font-size: 26px;
-			padding: 0 30px;
+			padding: 30px 30px 0 30px;
 		}
 
 		.details {
