@@ -25,7 +25,7 @@ strong {
   padding-top: 10px;
   position: fixed;
   width: 100%;
-  transition: 1s; }
+  transition: .5s; }
   #header-site.header-persist {
     background: url("../img/bg-about.png");
     height: 45px;
@@ -41,7 +41,7 @@ strong {
     #header-site.header-persist #logo a {
       background-position: 0 -128px;
       height: 45px;
-      transition: 1.5s; }
+      transition: .9s; }
 
 #logo a {
   background: url("../img/logo.png");
@@ -52,7 +52,7 @@ strong {
   width: 209px; }
 
 #header-nav {
-  margin-top: -70px; }
+  margin-top: -32px; }
   #header-nav ul li {
     display: inline-block; }
     #header-nav ul li a {
@@ -103,12 +103,11 @@ section {
     transition: .5s; }
     section#about.darken {
       background: rgba(0, 0, 0, 0.8);
-      transition: 0s; }
+      transition: 1s; }
       section#about.darken h2 {
         opacity: .1;
         transition: 2s; }
       section#about.darken #intro {
-        margin-top: 0;
         transition: .1s; }
     section#about h2 {
       color: #fff;
