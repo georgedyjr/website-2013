@@ -70,7 +70,8 @@ strong {
   float: left; }
 
 #nav-right {
-  float: right; }
+  float: right;
+  margin-right: 70px; }
   #nav-right a {
     margin-left: 30px;
     margin-right: 0 !important; }
@@ -506,4 +507,10 @@ section {
       height: 335px; }
       #portfolio .scroll-panel #list-portfolio li {
         display: inline-block;
-        margin: 0 15px; } }
+        margin: 0 15px; }
+
+  #insights, #insights-nav {
+    display: none !important; } }
+/* temp */
+#insights, #insights-nav {
+  display: none; }
