@@ -306,9 +306,15 @@ section {
       font-weight: 700; }
 
 /* Contact Section */
-#contact-info .inner, #contact-form-area .inner {
+#contact-info .inner {
   background: rgba(255, 255, 255, 0.75);
+  height: 210px;
   padding: 20px; }
+
+#contact-form-area .inner {
+  background: rgba(255, 255, 255, 0.75);
+  height: 220px;
+  padding: 15px; }
 
 #contact-info .bottom, #contact-form-area .bottom {
   background: rgba(244, 244, 244, 0.75);
@@ -347,44 +353,6 @@ section {
   text-align: left;
   text-transform: uppercase;
   width: 470px; }
-  #contact-form-area input, #contact-form-area textarea {
-    border: none;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
-    display: block;
-    font-family: "Share Tech";
-    letter-spacing: -2px;
-    font-size: 20px;
-    font-weight: 700;
-    margin-bottom: 10px;
-    padding: 5px;
-    width: 165px; }
-  #contact-form-area textarea {
-    float: right;
-    height: 150px;
-    width: 225px; }
-  #contact-form-area #contact-submit {
-    background: #77ac95;
-    border-radius: 2px;
-    color: #fff;
-    float: right;
-    font-weight: 400;
-    text-shadow: 0 1px 1px #000;
-    text-transform: uppercase;
-    width: 90px; }
-  #contact-form-area ::-webkit-input-placeholder {
-    color: #333;
-    text-transform: uppercase; }
-  #contact-form-area :-moz-placeholder {
-    /* Firefox 18- */
-    color: #333;
-    text-transform: uppercase; }
-  #contact-form-area ::-moz-placeholder {
-    /* Firefox 19+ */
-    color: #333;
-    text-transform: uppercase; }
-  #contact-form-area :-ms-input-placeholder {
-    color: #333;
-    text-transform: uppercase; }
   #contact-form-area .bottom a {
     color: #333;
     margin: 0 20px;

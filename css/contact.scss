@@ -1,3 +1,6 @@
+body{
+  margin: 2px;
+}
 @font-face {
   font-family: 'Clicker Script';
   font-style: normal;
@@ -26,21 +29,70 @@
 .wufoo {
   font-family: "Share Tech";
   font-size: 16px;
+	letter-spacing:-2px;
+	font-size: 22px;
+	font-weight: 700;
+	text-align: left;
+	text-transform: uppercase;
 
-  #saveForm {
-    background: #77ac95;
-    border-radius: 2px;
-    color: #fff;
-    float: right;
-    font-weight: 400;
-    text-shadow: 0 1px 1px black;
-    text-transform: uppercase;
-    width: 90px;
-  }
-  
-  #Field119 {
-    height: 250px;
-  }
+	input, textarea {
+		border: none;
+		box-shadow: 0 0 2px rgba(0,0,0,.4);
+		display: block;
+		font-family: "Share Tech";
+		letter-spacing:-2px;
+		font-size: 20px;
+		font-weight: 700;
+		margin-bottom: 10px;
+		padding: 5px;
+		width: 175px;
+	}
+
+	textarea {
+		float: right;
+		height: 160px;
+		width: 235px;
+	}
+
+	#contact-submit {
+		background: #77ac95;
+		border-radius: 2px;
+		color: #fff;
+		float: right;
+		font-weight: 400;
+		text-shadow: 0 1px 1px #000;
+		text-transform: uppercase;
+		width: 90px;
+	}
+
+	::-webkit-input-placeholder {
+		color: #333;
+		text-transform: uppercase;
+	}
+
+	:-moz-placeholder { /* Firefox 18- */
+		color: #333;
+		text-transform: uppercase;
+	}
+
+	::-moz-placeholder {  /* Firefox 19+ */
+		color: #333;
+		text-transform: uppercase;
+	}
+
+	:-ms-input-placeholder {  
+		color: #333;
+		text-transform: uppercase;
+	}
+
+	.bottom {
+
+		a {
+			color: #333;
+			margin: 0 20px;
+			text-decoration: underline;
+		}
+	}
 }
 html.embed {
   background: transparent !important;
