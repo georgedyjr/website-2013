@@ -32,7 +32,7 @@ $('#header-site a').on('click', function (e) {
 		}
 	}else{
 		if ( $(window).width() > 500) {
-			scrollPage($(linkId).offset().top - 40 + extraOffset);
+			scrollPage($(linkId).offset().top + extraOffset);
 		}else{
 			scrollPage($(linkId).offset().top - 200);
 		}

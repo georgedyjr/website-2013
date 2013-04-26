@@ -31,7 +31,7 @@ strong {
 	padding-top: 10px;
 	position: fixed;
 	width: 100%;
-	transition: 1s;
+	transition: .5s;
 
 	&.header-persist {
 		background: url('../img/bg-about.png');
@@ -53,7 +53,7 @@ strong {
 		#logo a {
 			background-position: 0 -128px;
 			height: 45px;
-			transition: 1.5s;
+			transition: .9s;
 		}
 
 	}
@@ -72,7 +72,7 @@ strong {
 }
 
 #header-nav {
-	margin-top: -70px;
+	margin-top: -32px;
 
 	ul li {
 		display: inline-block;
@@ -99,6 +99,7 @@ strong {
 
 #nav-right {
 	float: right;
+	margin-right: 70px;
 
 	a {
 		margin-left: 30px;
@@ -144,7 +145,7 @@ section {
 
 		&.darken {
 			background: rgba(0,0,0,.8);
-			transition: 0s;
+			transition: 1s;
 
 			h2 {
 				opacity: .1;
@@ -152,7 +153,6 @@ section {
 			}
 
 			#intro {
-				margin-top: 0;
 				transition: .1s;
 			}
 		}
@@ -681,4 +681,17 @@ section {
 			}
 		}
 	}
+
+#insights, #insights-nav {
+	display: none !important;
+}
+
+}
+
+
+
+/* temp */
+
+#insights, #insights-nav {
+	display: none !important;
 }
