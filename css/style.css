@@ -512,4 +512,4 @@ section {
     display: none !important; } }
 /* temp */
 #insights, #insights-nav {
-  display: none; }
+  display: none !important; }
