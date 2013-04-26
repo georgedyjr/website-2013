@@ -49,6 +49,7 @@ strong {
   height: 112px;
   margin: 0 auto;
   text-indent: -9999px;
+  transition: .9s;
   width: 209px; }
 
 #header-nav {
@@ -181,11 +182,11 @@ section {
     line-height: 25px;
     padding: 20px;
     text-shadow: 0 1px 4px black;
-    transition: .1s;
+    transition: .01s;
     visibility: hidden; }
   #list-services li:hover .details {
     background: rgba(119, 172, 149, 0.75);
-    transition: .2s;
+    transition: .01s;
     visibility: visible; }
   #list-services li.lean {
     background: url("../img/art-services-lean.jpg") no-repeat; }
@@ -201,7 +202,7 @@ section {
   #list-culture li {
     color: #333;
     display: table-cell;
-    height: 235px;
+    height: 265px;
     text-align: left;
     text-shadow: none;
     width: 215px; }
@@ -214,7 +215,7 @@ section {
       font-weight: 700; }
     #list-culture li .title {
       font-size: 26px;
-      padding: 0 30px; }
+      padding: 30px 30px 0 30px; }
     #list-culture li .details {
       font-size: 20px; }
     #list-culture li.one {
@@ -232,7 +233,7 @@ section {
   cursor: default;
   display: inline-block;
   height: 335px;
-  margin-bottom: 30px;
+  margin: 0 80px 30px 80px;
   text-align: center;
   width: 260px; }
   #list-portfolio li .title {
@@ -251,13 +252,11 @@ section {
   #list-portfolio li .details {
     color: #fff;
     display: block;
-    font-family: "Share Tech";
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 20px;
     height: 224px;
+    line-height: 23px;
     padding: 20px;
     text-shadow: 0 1px 4px black;
-    text-transform: uppercase;
     transition: .1s;
     visibility: hidden; }
     #list-portfolio li .details span {
@@ -268,13 +267,14 @@ section {
     background: rgba(119, 172, 149, 0.75);
     transition: .2s;
     visibility: visible; }
-  #list-portfolio li.catwalk {
-    background: url("../img/art-services-lean.jpg") no-repeat; }
-  #list-portfolio li.bofa {
-    background: url("../img/art-services-design.jpg") no-repeat;
-    margin: 0 30px; }
-  #list-portfolio li.github {
-    background: url("../img/art-services-agile.jpg") no-repeat; }
+  #list-portfolio li.linea {
+    background: url("../img/art-portfolio-linea.jpg") no-repeat; }
+  #list-portfolio li.scout {
+    background: url("../img/art-portfolio-scout.jpg") no-repeat; }
+  #list-portfolio li.jakd {
+    background: url("../img/art-portfolio-jakd.jpg") no-repeat; }
+  #list-portfolio li.ubs {
+    background: url("../img/art-portfolio-ubs.jpg") no-repeat; }
 
 /* Insights Section */
 .carousel {
@@ -306,10 +306,15 @@ section {
       font-weight: 700; }
 
 /* Contact Section */
-#contact-info .inner, #contact-form-area .inner {
+#contact-info .inner {
   background: rgba(255, 255, 255, 0.75);
   height: 210px;
   padding: 20px; }
+
+#contact-form-area .inner {
+  background: rgba(255, 255, 255, 0.75);
+  height: 220px;
+  padding: 15px; }
 
 #contact-info .bottom, #contact-form-area .bottom {
   background: rgba(244, 244, 244, 0.75);
@@ -348,44 +353,6 @@ section {
   text-align: left;
   text-transform: uppercase;
   width: 470px; }
-  #contact-form-area input, #contact-form-area textarea {
-    border: none;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
-    display: block;
-    font-family: "Share Tech";
-    letter-spacing: -2px;
-    font-size: 20px;
-    font-weight: 700;
-    margin-bottom: 10px;
-    padding: 5px;
-    width: 165px; }
-  #contact-form-area textarea {
-    float: right;
-    height: 150px;
-    width: 225px; }
-  #contact-form-area #contact-submit {
-    background: #77ac95;
-    border-radius: 2px;
-    color: #fff;
-    float: right;
-    font-weight: 400;
-    text-shadow: 0 1px 1px black;
-    text-transform: uppercase;
-    width: 90px; }
-  #contact-form-area ::-webkit-input-placeholder {
-    color: #333;
-    text-transform: uppercase; }
-  #contact-form-area :-moz-placeholder {
-    /* Firefox 18- */
-    color: #333;
-    text-transform: uppercase; }
-  #contact-form-area ::-moz-placeholder {
-    /* Firefox 19+ */
-    color: #333;
-    text-transform: uppercase; }
-  #contact-form-area :-ms-input-placeholder {
-    color: #333;
-    text-transform: uppercase; }
   #contact-form-area .bottom a {
     color: #333;
     margin: 0 20px;
@@ -464,8 +431,6 @@ section {
     #list-portfolio li .details {
       background: rgba(119, 172, 149, 0.75);
       visibility: visible; }
-    #list-portfolio li.bofa {
-      margin: 0 auto 20px auto; }
 
   .carousel {
     max-width: 100%; }
@@ -503,7 +468,7 @@ section {
     height: 335px;
     overflow: scroll; }
     #portfolio .scroll-panel #list-portfolio {
-      width: 1950px;
+      width: 1000px;
       height: 335px; }
       #portfolio .scroll-panel #list-portfolio li {
         display: inline-block;
