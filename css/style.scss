@@ -99,6 +99,7 @@ strong {
 
 #nav-right {
 	float: right;
+	margin-right: 70px;
 
 	a {
 		margin-left: 30px;
@@ -724,4 +725,17 @@ section {
 			}
 		}
 	}
+
+#insights, #insights-nav {
+	display: none !important;
+}
+
+}
+
+
+
+/* temp */
+
+#insights, #insights-nav {
+	display: none;
 }
