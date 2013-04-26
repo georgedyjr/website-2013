@@ -337,7 +337,7 @@ section {
 		cursor: default;
 		display: inline-block;
 		height: 335px;
-		margin-bottom: 30px;
+		margin: 0 80px 30px 80px;
 		text-align: center;
 		width: 260px;
 
@@ -359,13 +359,11 @@ section {
 		.details {
 			color: #fff;
 			display: block;
-			font-family: $headerFont;
-			font-size: 40px;
-			font-weight: 700;
+			font-size: 20px;
 			height: 224px;
+			line-height: 23px;
 			padding: 20px;
 			text-shadow: 0 1px 4px #000;
-			text-transform: uppercase;
 			transition: .1s;
 			visibility: hidden;
 
@@ -385,17 +383,20 @@ section {
 			}
 		}
 
-		&.catwalk {
-			background: url('../img/art-services-lean.jpg') no-repeat;
+		&.linea {
+			background: url('../img/art-portfolio-linea.jpg') no-repeat;
 		}
 
-		&.bofa {
-			background: url('../img/art-services-design.jpg') no-repeat;
-			margin: 0 30px;
+		&.scout {
+			background: url('../img/art-portfolio-scout.jpg') no-repeat;
 		}
 
-		&.github {
-			background: url('../img/art-services-agile.jpg') no-repeat;
+		&.jakd {
+			background: url('../img/art-portfolio-jakd.jpg') no-repeat;
+		}
+
+		&.ubs {
+			background: url('../img/art-portfolio-ubs.jpg') no-repeat;
 		}
 	}
 }
@@ -615,10 +616,6 @@ section {
 			background: rgba(119, 172, 149, 0.75);
 			visibility: visible;
 		}
-
-		&.bofa {
-			margin: 0 auto 20px auto;
-		}
 	}
 
 	.carousel {
@@ -673,7 +670,7 @@ section {
 		overflow: scroll;
 
 		#list-portfolio {
-			width: 1950px;
+			width: 1000px;
 			height: 335px;
 
 			li {
