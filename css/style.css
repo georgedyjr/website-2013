@@ -68,7 +68,8 @@ strong {
         border-bottom: 2px solid white; }
 
 #nav-left {
-  float: left; }
+  float: left;
+  margin-left: 70px; }
 
 #nav-right {
   float: right;
@@ -474,8 +475,8 @@ section {
         display: inline-block;
         margin: 0 15px; }
 
-  #insights, #insights-nav {
+  #insights, #insights-nav, #portfolio, #portfolio-nav {
     display: none !important; } }
 /* temp */
-#insights, #insights-nav {
+#insights, #insights-nav, #portfolio, #portfolio-nav {
   display: none !important; }
