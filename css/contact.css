@@ -1,32 +1,8 @@
 body {
   margin: 2px; }
 
-@font-face {
-  font-family: 'Clicker Script';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Clicker Script"), local("ClickerScript-Regular"), url(http://themes.googleusercontent.com/static/fonts/clickerscript/v1/Zupmk8XwADjufGxWB9KThLDH3ri20rYH10B2w3wbVeU.woff) format("woff"); }
-
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 300;
-  src: local("Lato Light"), local("Lato-Light"), url(http://themes.googleusercontent.com/static/fonts/lato/v6/kcf5uOXucLcbFOydGU24WALUuEpTyoUstqEm5AMlJo4.woff) format("woff"); }
-
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local("Lato Bold"), local("Lato-Bold"), url(http://themes.googleusercontent.com/static/fonts/lato/v6/qdgUG4U09HnJwhYI-uK18wLUuEpTyoUstqEm5AMlJo4.woff) format("woff"); }
-
-@font-face {
-  font-family: 'Share Tech';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Share Tech"), local("ShareTech-Regular"), url(http://themes.googleusercontent.com/static/fonts/sharetech/v1/riJWcvd3sYdxJpiCWZvUGL3hpw3pgy2gAi-Ip7WPMi0.woff) format("woff"); }
-
 .wufoo {
-  font-family: "Share Tech";
+  font-family: "Merriweather Sans";
   font-size: 16px;
   letter-spacing: -2px;
   font-size: 22px;
@@ -37,9 +13,9 @@ body {
     border: none;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
     display: block;
-    font-family: "Share Tech";
+    font-family: "Merriweather Sans";
     letter-spacing: -2px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
     margin-bottom: 10px;
     padding: 5px;
@@ -54,7 +30,7 @@ body {
     color: #fff;
     float: right;
     font-weight: 400;
-    text-shadow: 0 1px 1px #000;
+    text-shadow: 0 1px 1px black;
     text-transform: uppercase;
     width: 90px; }
   .wufoo ::-webkit-input-placeholder {
@@ -78,3 +54,18 @@ body {
 
 html.embed {
   background: transparent !important; }
+
+@media screen and (max-width: 640px) {
+  #contact_form textarea, #contact_form input {
+    border: 1px solid #cccccc;
+    float: none;
+    width: 100%; }
+  #contact_form #contact-submit {
+    float: right;
+    margin-bottom: -100px;
+    margin-top: 50px;
+    width: 100%; }
+  #contact_form p a {
+    display: block;
+    padding: 15px;
+    text-align: center; } }

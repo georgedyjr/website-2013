@@ -1,4 +1,4 @@
-$headerFont: "Share Tech";
+$headerFont: "Merriweather Sans";
 
 body {
 	background-color: #424242;
@@ -128,8 +128,7 @@ section {
 
 	h2 {
 		font-family: $headerFont;
-		letter-spacing:-2px;
-		font-size: 60px;
+		font-size: 58px;
 		padding-top: 20px;
 		text-transform: uppercase;
 	}
@@ -166,8 +165,8 @@ section {
 
 			span {
 				display: block;
-				font-family: "Clicker Script";
-				font-size: 32px;
+				font-family: "Satisfy";
+				font-size: 24px;
 				letter-spacing: 0;
 				padding: 10px 0;
 				text-transform: lowercase;
@@ -237,7 +236,7 @@ section {
 			display: block;
 			font-family: $headerFont;
 			letter-spacing:-2px;
-			font-size: 30px;
+			font-size: 24px;
 			font-weight: 700;
 			padding: 20px 0;
 			text-align: center;
@@ -286,10 +285,11 @@ section {
 
 	li {
 		color: #333;
-		display: table-cell;
+		display: inline-block;
 		height: 265px;
 		text-align: left;
 		text-shadow: none;
+		vertical-align: top;
 		width: 215px;
 
 		span {
@@ -468,7 +468,7 @@ section {
 	float: left;
 	font-family: $headerFont;
 	letter-spacing:-2px;
-	font-size: 22px;
+	font-size: 16px;
 	font-weight: 700;
 	text-align: left;
 	text-transform: uppercase;
@@ -476,20 +476,26 @@ section {
 
 	span {
 		display: block;
+		line-height: 22px;
 	}
 
 	address {
+		line-height: 22px;
 		padding-bottom: 20px;
 	}
 
 	h4 {
-		font-size: 30px;
+		font-size: 26px;
 		padding-bottom: 20px;
 		padding-top: 0;
 	}
 
 	a {
 		color: #333;
+	}
+
+	.bottom {
+		font-size: 22px;
 	}
 }
 
@@ -681,9 +687,13 @@ section {
 		}
 	}
 
-#insights, #insights-nav, #portfolio, #portfolio-nav {
-	display: none !important;
-}
+	#insights, #insights-nav, #portfolio, #portfolio-nav {
+		display: none !important;
+	}
+
+	iframe#contact {
+		height: 430px;
+	}
 
 }
 
