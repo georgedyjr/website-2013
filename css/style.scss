@@ -96,12 +96,10 @@ strong {
 
 #nav-left {
 	float: left;
-	margin-left: 70px;
 }
 
 #nav-right {
 	float: right;
-	margin-right: 70px;
 
 	a {
 		margin-left: 30px;
@@ -681,7 +679,7 @@ section {
 		}
 	}
 
-#insights, #insights-nav, #portfolio, #portfolio-nav {
+#portfolio, #portfolio-nav {
 	display: none !important;
 }
 
@@ -691,6 +689,6 @@ section {
 
 /* temp */
 
-#insights, #insights-nav, #portfolio, #portfolio-nav {
+#portfolio, #portfolio-nav {
 	display: none !important;
 }
