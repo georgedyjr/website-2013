@@ -1,4 +1,4 @@
-$headerFont: "Merriweather Sans";
+$headerFont: "Share Tech";
 
 body {
 	background-color: #424242;
@@ -96,12 +96,10 @@ strong {
 
 #nav-left {
 	float: left;
-	margin-left: 70px;
 }
 
 #nav-right {
 	float: right;
-	margin-right: 70px;
 
 	a {
 		margin-left: 30px;
@@ -128,7 +126,8 @@ section {
 
 	h2 {
 		font-family: $headerFont;
-		font-size: 58px;
+		letter-spacing:-2px;
+		font-size: 60px;
 		padding-top: 20px;
 		text-transform: uppercase;
 	}
@@ -165,8 +164,8 @@ section {
 
 			span {
 				display: block;
-				font-family: "Satisfy";
-				font-size: 24px;
+				font-family: "Clicker Script";
+				font-size: 32px;
 				letter-spacing: 0;
 				padding: 10px 0;
 				text-transform: lowercase;
@@ -236,7 +235,7 @@ section {
 			display: block;
 			font-family: $headerFont;
 			letter-spacing:-2px;
-			font-size: 24px;
+			font-size: 30px;
 			font-weight: 700;
 			padding: 20px 0;
 			text-align: center;
@@ -285,11 +284,10 @@ section {
 
 	li {
 		color: #333;
-		display: inline-block;
+		display: table-cell;
 		height: 265px;
 		text-align: left;
 		text-shadow: none;
-		vertical-align: top;
 		width: 215px;
 
 		span {
@@ -409,7 +407,7 @@ section {
 	width: 860px;
 
 	.hero {
-		background: url('http://placehold.it/860x434.jpg');
+		background: url('../img/blog-slide-1.jpg');
 		height: 434px;
 	}
 
@@ -468,7 +466,7 @@ section {
 	float: left;
 	font-family: $headerFont;
 	letter-spacing:-2px;
-	font-size: 16px;
+	font-size: 22px;
 	font-weight: 700;
 	text-align: left;
 	text-transform: uppercase;
@@ -476,26 +474,20 @@ section {
 
 	span {
 		display: block;
-		line-height: 22px;
 	}
 
 	address {
-		line-height: 22px;
 		padding-bottom: 20px;
 	}
 
 	h4 {
-		font-size: 26px;
+		font-size: 30px;
 		padding-bottom: 20px;
 		padding-top: 0;
 	}
 
 	a {
 		color: #333;
-	}
-
-	.bottom {
-		font-size: 22px;
 	}
 }
 
@@ -629,7 +621,7 @@ section {
 		max-width: 100%;
 
 		.hero {
-			background-size: contain;
+			background-size: cover;
 			height:200px;
 		}
 	}
@@ -687,13 +679,9 @@ section {
 		}
 	}
 
-	#insights, #insights-nav, #portfolio, #portfolio-nav {
-		display: none !important;
-	}
-
-	iframe#contact {
-		height: 430px;
-	}
+#portfolio, #portfolio-nav {
+	display: none !important;
+}
 
 }
 
@@ -701,6 +689,6 @@ section {
 
 /* temp */
 
-#insights, #insights-nav, #portfolio, #portfolio-nav {
+#portfolio, #portfolio-nav {
 	display: none !important;
 }
