@@ -62,10 +62,10 @@ strong {
       letter-spacing: 0px;
       font-size: 20px;
       margin-right: 30px;
-      text-shadow: 1px 1px 3px black;
+      text-shadow: 1px 1px 3px #000;
       text-transform: uppercase; }
       #header-nav ul li a:hover {
-        border-bottom: 2px solid white; }
+        border-bottom: 2px solid #fff; }
 
 #nav-left {
   float: left; }
@@ -87,7 +87,7 @@ section {
     text-align: center; }
     section hgroup.light {
       color: #fff;
-      text-shadow: 1px 1px 3px black; }
+      text-shadow: 1px 1px 3px #000; }
   section h2 {
     font-family: "Share Tech";
     letter-spacing: -2px;
@@ -113,7 +113,7 @@ section {
     section#about h2 {
       color: #fff;
       text-align: center;
-      text-shadow: 1px 1px 3px black; }
+      text-shadow: 1px 1px 3px #000; }
       section#about h2 span {
         display: block;
         font-family: "Clicker Script";
@@ -145,11 +145,11 @@ section {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    border-top: 1px solid black; }
+    border-top: 1px solid #000; }
   section#insights {
     background-image: url("../img/bg-insights.jpg");
     border-bottom: 6px solid #333333;
-    border-top: 1px solid silver; }
+    border-top: 1px solid #c0c0c0; }
   section#portfolio {
     background-image: url("../img/bg-portfolio.jpg");
     border-bottom: 6px solid #e0e0e0; }
@@ -180,7 +180,7 @@ section {
     height: 224px;
     line-height: 25px;
     padding: 20px;
-    text-shadow: 0 1px 4px black;
+    text-shadow: 0 1px 4px #000;
     transition: .01s;
     visibility: hidden; }
   #list-services li:hover .details {
@@ -197,7 +197,7 @@ section {
 
 /* Culture Section */
 #list-culture {
-  box-shadow: 0 0 12px black; }
+  box-shadow: 0 0 12px #000; }
   #list-culture li {
     color: #333;
     display: table-cell;
@@ -255,7 +255,7 @@ section {
     height: 224px;
     line-height: 23px;
     padding: 20px;
-    text-shadow: 0 1px 4px black;
+    text-shadow: 0 1px 4px #000;
     transition: .1s;
     visibility: hidden; }
     #list-portfolio li .details span {
@@ -305,6 +305,9 @@ section {
       font-weight: 700; }
 
 /* Contact Section */
+#contact_frame {
+  height: 220px; }
+
 #contact-info .inner {
   background: rgba(255, 255, 255, 0.75);
   height: 210px;
@@ -437,6 +440,9 @@ section {
       background-size: cover;
       height: 200px; }
 
+  #contact_frame {
+    height: 550px; }
+
   #contact-info {
     float: none;
     margin: 0 auto 20px auto; }
@@ -449,7 +455,7 @@ section {
     #contact-form-area .inner {
       height: auto; }
     #contact-form-area textarea, #contact-form-area input {
-      border: 1px solid #cccccc;
+      border: 1px solid #ccc;
       float: none;
       width: 100%; }
     #contact-form-area #contact-submit {

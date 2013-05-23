@@ -443,6 +443,9 @@ section {
 }
 
 /* Contact Section */
+#contact_frame {
+  height: 220px;
+}
 #contact-info .inner {
 	background: rgba(255,255,255,.75);
   height: 210px;
@@ -625,6 +628,10 @@ section {
 			height:200px;
 		}
 	}
+
+  #contact_frame {
+    height: 435px;
+  }
 
 	#contact-info {
 		float: none;
