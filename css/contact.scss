@@ -1,6 +1,7 @@
 body{
   margin: 2px;
 }
+
 @font-face {
   font-family: 'Clicker Script';
   font-style: normal;
@@ -47,6 +48,14 @@ body{
 		padding: 5px;
 		width: 175px;
 	}
+  
+  .info {
+    float: right;
+  }
+  
+  .input-wrap {
+    float: left;
+  }
 
 	textarea {
 		float: right;
@@ -96,4 +105,31 @@ body{
 }
 html.embed {
   background: transparent !important;
+}
+
+@media screen and (max-width: 400px) {
+
+    #contact_form {
+
+      .input-wrap {
+        width: 100%
+      }
+
+  		textarea, input {
+  			border: 1px solid #ccc;
+  			float: none;
+  			width: 100%;
+  		}
+
+  		#contact-submit {
+  			float: right;
+  			width: 100%;
+  		}
+
+  		p a {
+  			display: block;
+  			padding: 15px;
+  			text-align: center;
+  		}
+	}
 }
