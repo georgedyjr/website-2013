@@ -1,6 +1,7 @@
 body{
   margin: 2px;
 }
+
 @font-face {
   font-family: 'Clicker Script';
   font-style: normal;
@@ -26,14 +27,20 @@ body{
   src: local('Share Tech'), local('ShareTech-Regular'), url(http://themes.googleusercontent.com/static/fonts/sharetech/v1/riJWcvd3sYdxJpiCWZvUGL3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
 }
 
+.placeholder
+{
+  color: #aaa;
+}
+
 .wufoo {
   font-family: "Share Tech";
   font-size: 16px;
 	letter-spacing:-2px;
-	font-size: 22px;
-	font-weight: 700;
+	font-size: 20px;
+	font-weight: 400;
 	text-align: left;
 	text-transform: uppercase;
+  margin: 0px;
 
 	input, textarea {
 		border: none;
@@ -42,11 +49,19 @@ body{
 		font-family: "Share Tech";
 		letter-spacing:-2px;
 		font-size: 20px;
-		font-weight: 700;
+		font-weight: 400;
 		margin-bottom: 10px;
 		padding: 5px;
 		width: 175px;
 	}
+  
+  .info {
+    float: right;
+  }
+  
+  .input-wrap {
+    float: left;
+  }
 
 	textarea {
 		float: right;
@@ -96,4 +111,31 @@ body{
 }
 html.embed {
   background: transparent !important;
+}
+
+@media screen and (max-width: 400px) {
+
+    #contact_form {
+
+      .input-wrap {
+        width: 100%
+      }
+
+  		textarea, input {
+  			border: 1px solid #ccc;
+  			float: none;
+  			width: 100%;
+  		}
+
+  		#contact-submit {
+  			float: right;
+  			width: 100%;
+  		}
+
+  		p a {
+  			display: block;
+  			padding: 15px;
+  			text-align: center;
+  		}
+	}
 }

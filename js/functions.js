@@ -14,7 +14,6 @@ $(document).on('ready', function () {
 			//$bgElement.css({ backgroundPosition: coords });
 		//})
 	//});
-
 }); 
 
 // Click handlers for nav
@@ -58,4 +57,12 @@ $(window).on('scroll', function () {
 			$('#about').removeClass('darken');
 		}
 	}
+});
+
+var setupContact = function(){
+  $('#contact_frame').contents().find('input, textarea').placeholder();
+}
+
+$($('#contact_frame')[0].document).ready(function() {
+  window.setTimeout('setupContact();', 1000);  
 });

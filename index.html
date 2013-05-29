@@ -75,10 +75,10 @@
 			</hgroup>
 
 			<ul id="list-culture">
-				<li class="one"><span class="title">The<br>Inspiration</span><span class="details">We love new tech and new ideas, so naturally, we love helping new companies get off the ground.</span></li>
-				<li class="two"><span class="title">The<br>Attitude</span><span class="details">We take pride in our work, so we stand by it, always.</span></li>
-				<li class="three"><span class="title">The<br>Office</span><span class="details">We work in a co-working space because we like to talk to real people about our projects.</span></li>
-				<li class="four"><span class="title">The<br>Work</span><span class="details">We take on projects and clients that inspire us.</span></li>
+				<li class="one"><span class="title">The<br>Inspiration</span><span class="details">We love new tech and new ideas, so naturally, we love helping new companies get off the ground.</span></li><!--
+				--><li class="two"><span class="title">The<br>Attitude</span><span class="details">We take pride in our work, so we stand by it, always.</span></li><!--
+				--><li class="three"><span class="title">The<br>Office</span><span class="details">We work in a co-working space because we like to talk to real people about our projects.</span></li><!--
+				--><li class="four"><span class="title">The<br>Work</span><span class="details">We take on projects and clients that inspire us.</span></li>
 			</ul>
 
 		</div>
@@ -142,7 +142,7 @@
 
       <div id="contact-form-area">
 				<div class="inner">
-          <iframe id="contact" class="wufoo-form-container" height="220" 
+          <iframe id="contact_frame" class="wufoo-form-container" 
           allowtransparency="true" frameborder="0" scrolling="no" 
           style="width:100%;border:none" src="contact.html"></iframe>
         </div>
@@ -157,24 +157,9 @@
 	</section>
 
 	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/jquery.placeholder.min.js"></script>
 	<script src="js/functions.js"></script>
-
-  <script type="text/javascript">var m7x3z9;(function(d, t) {
-    var s = d.createElement(t), options = {
-      'userName':'propellerlabs', 
-      'formHash':'m7x3z9', 
-      'autoResize':true,
-      'height':'240',
-      'async':true,
-      'header':'hide'};
-      s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
-      s.onload = s.onreadystatechange = function() {
-      var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-      try { m7x3z9 = new WufooForm();m7x3z9.initialize(options);m7x3z9.display(); } catch (e) {}};
-      var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-    })(document, 'script');
-  </script>
-
+    
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
